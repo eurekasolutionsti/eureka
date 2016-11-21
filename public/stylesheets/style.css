@@ -1,0 +1,29 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: midnightblue;
+  margin: 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+  margin: 0;
+}
+
+#divMain{
+  text-align: center;
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  height: 100vh;
+}
+
+#spanS{
+  color: #3b6fb6;
+}
+
+#divTitle{
+  padding-top: 50px;
+}
