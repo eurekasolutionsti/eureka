@@ -1,6 +1,6 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: midnightblue;
+  font: 14px "Verdana", Helvetica, Arial, sans-serif;
+  background-color: #728cb2;
   margin: 0;
 }
 
@@ -13,17 +13,58 @@ h1{
 }
 
 #divMain{
-  text-align: center;
-  background-color: white;
+  background-color: #e5e5e5;
   width: 800px;
   margin: auto;
   height: 100vh;
 }
 
 #spanS{
-  color: #3b6fb6;
+  color: #307bc4;
 }
 
 #divTitle{
-  padding-top: 50px;
+  background-color: white;
+}
+
+#logo{
+}
+
+#menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#elemMenu{
+  float: left;
+  border-right: 1px solid #728cb2;
+}
+
+#elemMenu:last-child{
+  border-right: none;
+}
+
+#lienMenu{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#lienMenu:hover {
+  background-color: #728cb2;
+}
+
+#divSub{
+  z-index: 2;
+  padding: 20px 50px;
+}
+
+#ligne{
+  position: absolute;
+  z-index: 1;
 }
