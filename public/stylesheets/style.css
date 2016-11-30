@@ -93,3 +93,14 @@ h1{
 
 .tableTarif .trTarif:nth-child(odd){background-color: #f2f2f2;}
 
+#divLogoSub{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#divLogo{
+
+}
